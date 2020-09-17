@@ -13,6 +13,7 @@
 		7D49729125130AA800727B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D49728F25130AA800727B19 /* Main.storyboard */; };
 		7D49729325130AAA00727B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D49729225130AAA00727B19 /* Assets.xcassets */; };
 		7D49729625130AAA00727B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D49729425130AAA00727B19 /* LaunchScreen.storyboard */; };
+		7D4972A4251341B700727B19 /* UIAlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4972A3251341B700727B19 /* UIAlertExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7D49729225130AAA00727B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D49729525130AAA00727B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D49729725130AAA00727B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4972A3251341B700727B19 /* UIAlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7D49728925130AA800727B19 /* AppDelegate.swift */,
 				7D49728B25130AA800727B19 /* SceneDelegate.swift */,
 				7D49728D25130AA800727B19 /* ViewController.swift */,
+				7D4972A3251341B700727B19 /* UIAlertExtension.swift */,
 				7D49728F25130AA800727B19 /* Main.storyboard */,
 				7D49729225130AAA00727B19 /* Assets.xcassets */,
 				7D49729425130AAA00727B19 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4972A4251341B700727B19 /* UIAlertExtension.swift in Sources */,
 				7D49728E25130AA800727B19 /* ViewController.swift in Sources */,
 				7D49728A25130AA800727B19 /* AppDelegate.swift in Sources */,
 				7D49728C25130AA800727B19 /* SceneDelegate.swift in Sources */,

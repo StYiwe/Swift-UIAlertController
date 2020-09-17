@@ -19,24 +19,36 @@ class ViewController: UIViewController {
     @IBAction func btn1(_ sender: Any) {
         
         let alertC = UIAlertController.init(title: "温馨提示", message: "现在开始走运了", preferredStyle: .alert)
-        
+
         alertC.addAction(UIAlertAction.init(title: "好的", style: .default, handler: nil))
-        
+
         present(alertC, animated: true, completion: nil)
+        
+        
+//        //使用封装后的方式
+//        UIAlertController.showAlert(title: "温馨提示", message: "现在开始走运了", actionTitle: "好的", animated: true, in: self)
+        
     }
     
     //MARK: - 类似删除操作提示框
     @IBAction func btn2(_ sender: Any) {
         
         let alertC = UIAlertController.init(title: "温馨提示", message: "确定删除BUG吗？", preferredStyle: .alert)
-        
+
         alertC.addAction(UIAlertAction.init(title: "删除", style: .destructive, handler: { (action) in
             print("删除")
         }))
-        
+
         alertC.addAction(UIAlertAction.init(title: "取消", style: .cancel, handler: nil))
-        
+
         present(alertC, animated: true, completion: nil)
+        
+        
+//        //使用封装后的方式
+//        UIAlertController.showAlertComfirm(title: "温馨提示", message: "确定删除BUG吗？", actionTitle: "删除", animated: true, in: self) { (action) in
+//            print("删除")
+//        }
+        
     }
     
     //MARK: - 带一个textField提示框
