@@ -73,15 +73,18 @@ class ViewController: UIViewController {
         
         //添加textField
         alertC.addTextField { (textField) in
+            //这里对textField进行设置
             textField.placeholder = "输入帐号"
         }
         
         alertC.addTextField { (textField) in
+            //这里对textField进行设置
             textField.placeholder = "输入密码"
             textField.isSecureTextEntry = true//密文显示
         }
         
         alertC.addAction(UIAlertAction.init(title: "登录", style: .default, handler: { (action) in
+            //这里获取textField的内容进行操作
             //输入的帐号
             let text1 = (alertC.textFields?.first)!.text!
             
