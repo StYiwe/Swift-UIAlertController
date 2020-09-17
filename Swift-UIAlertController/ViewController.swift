@@ -100,6 +100,21 @@ class ViewController: UIViewController {
         present(alertC, animated: true, completion: nil)
     }
     
+    //MARK: - 提示框弹出后自动消失
+    @IBAction func btn6(_ sender: Any) {
+        
+        let alertC = UIAlertController.init(title: "成功", message: nil, preferredStyle: .alert)
+        
+        present(alertC, animated: true, completion: nil)
+        
+        //3秒后提示框消失
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3) {
+            //提示框消失
+            alertC.dismiss(animated: true, completion: nil)
+        }
+        
+    }
+    
     //MARK: - ActionSheet
     @IBAction func btn5(_ sender: Any) {
         

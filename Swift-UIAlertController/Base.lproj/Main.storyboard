@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="8fv-bX-65B">
-                                <rect key="frame" x="93.5" y="358" width="227" height="190"/>
+                                <rect key="frame" x="93.5" y="338" width="227" height="230"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMe-3O-f3a">
                                         <rect key="frame" x="0.0" y="0.0" width="227" height="30"/>
@@ -46,8 +46,15 @@
                                             <action selector="btn4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eQi-RT-Nug"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vwm-nl-9iE">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKu-HA-d3s">
                                         <rect key="frame" x="0.0" y="160" width="227" height="30"/>
+                                        <state key="normal" title="提示框弹出后自动消失"/>
+                                        <connections>
+                                            <action selector="btn6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QkK-12-stl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vwm-nl-9iE">
+                                        <rect key="frame" x="0.0" y="200" width="227" height="30"/>
                                         <state key="normal" title="ActionSheet"/>
                                         <connections>
                                             <action selector="btn5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="26O-u0-5dW"/>
